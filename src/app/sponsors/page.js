@@ -34,13 +34,19 @@ export default function Sponsors() {
               <p><b>By sponsoring with a minimum amount of ₹20,000, you will receive the following benefits:</b></p>
               <br />
               <li>
-                <b>🔸 Brand Visibility: </b> Your logo featured on conference banners, exhibition stall panels, and during key conference sessions
-                Acknowledgement in the official conference brochure, website, and digital promotions Featured mention in the conference souvenir and proceedings
+                <b>🔸 Brand Visibility: </b> Your logo featured on conference banners, exhibition stall panels, and during key conference sessions. Acknowledgement in the official conference brochure, website, and digital promotions. Featured mention in the conference souvenir and proceedings.
               </li>
               <li>
-                <b>🔸 Stall Branding & Engagement: </b>Co-branded artisan stall or display space Opportunity to distribute product samples, brochures, 
-                Support the Artisans | Celebrate Knowledge | Strengthen Traditions
+                <b>🔸 Stall Branding & Engagement: </b> Co-branded artisan stall or display space. Opportunity to distribute product samples, brochures, or promotional items. Space for CSR storyboards or brand messages that align with sustainability or heritage.
               </li>
+              <li>
+                <b>🔸 Premium Networking: </b> Complimentary invites to the inauguration, keynote sessions, and cultural evenings. Engage with national and international scholars, government representatives, and heritage institutions.
+              </li>
+              <li>
+                <b>🔸 CSR & Cultural Alignment: </b> Contribute to the preservation and promotion of traditional knowledge systems. Fulfill CSR objectives by supporting artisans, women-led initiatives, and eco-friendly enterprises.
+              </li>
+              <br />
+              <p style={{textAlign: 'center', fontSize: '18px', fontWeight: 'bold', color: 'var(--primary-color)'}}>Support the Artisans | Celebrate Knowledge | Strengthen Traditions</p>
             </ul>
           </div>
         </section>

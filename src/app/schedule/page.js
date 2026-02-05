@@ -23,7 +23,7 @@ export default function Schedule() {
               <p className="card-date">December 15th, 2025</p>
             </div>
             
-            <div className="date-card">
+            <div className="date-card date-card-highlight">
               <h3 className="card-title">Early Bird Registration</h3>
               <p className="card-date">January-March 15th, 2026</p>
             </div>

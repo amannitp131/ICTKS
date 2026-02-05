@@ -64,25 +64,7 @@ export default function Committee() {
       {/* Chairman Section */}
       <section className="organizing-committee">
         <div className="container">
-          <p className="committee-depart">Chairman</p>
-          <div className="committee-members">
-            <div className="member-card">
-              <div className="member-img">
-                <img src="/img/Prof. Fulena Rajak.webp" alt="Prof. Fulena Rajak" />
-              </div>
-              <div className="member-info">
-                <h3>Prof. (Dr.) Fulena Rajak</h3>
-                <p>Professor, Department of Architecture and Planning,<br /> NIT Patna</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Co-Chair Section */}
-      <section className="organizing-committee">
-        <div className="container">
-          <p className="committee-depart">Co-Chair</p>
+          <p className="committee-depart">Organising Chairman</p>
           <div className="committee-members">
             <div className="member-card">
               <div className="member-img">
@@ -190,6 +172,16 @@ export default function Committee() {
         <div className="container">
           <p className="committee-depart">Technical Advisors</p>
           <div className="committee-members">
+            <div className="member-card">
+              <div className="member-img">
+                <img src="/img/Prof. Fulena Rajak.webp" alt="Prof. Fulena Rajak" />
+              </div>
+              <div className="member-info">
+                <h3>Prof. (Dr.) Fulena Rajak</h3>
+                <p>Professor, Department of Architecture and Planning,<br /> NIT Patna</p>
+              </div>
+            </div>
+
             <div className="member-card">
               <div className="member-img">
                 <img src="/img/prof. j. singh.jpg" alt="Prof. J. Singh" />
