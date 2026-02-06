@@ -15,22 +15,27 @@ export default function Schedule() {
           <div className="dates-grid">
             <div className="date-card">
               <h3 className="card-title">Abstract Submission Deadline</h3>
-              <p className="card-date">September 30th, 2025</p>
+              <p className="card-date">March 31st, 2026</p>
+            </div>
+            
+            <div className="date-card">
+              <h3 className="card-title">Abstract Acceptance Notification</h3>
+              <p className="card-date">April 07th, 2026</p>
             </div>
             
             <div className="date-card">
               <h3 className="card-title">Full Paper Submission Deadline</h3>
-              <p className="card-date">December 15th, 2025</p>
+              <p className="card-date">May 31st, 2026</p>
             </div>
             
             <div className="date-card date-card-highlight">
               <h3 className="card-title">Early Bird Registration</h3>
-              <p className="card-date">January-March 15th, 2026</p>
+              <p className="card-date">April 30th, 2026</p>
             </div>
             
             <div className="date-card">
-              <h3 className="card-title">Full Paper Acceptance Notification</h3>
-              <p className="card-date">February 30th, 2026</p>
+              <h3 className="card-title">Final Registration Deadline</h3>
+              <p className="card-date">May 15th, 2026</p>
             </div>
             
             <div className="date-card">

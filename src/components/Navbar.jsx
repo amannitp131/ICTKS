@@ -24,7 +24,7 @@ export default function Navbar() {
           <Link href="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
           <Link href="/committee" onClick={() => setIsMenuOpen(false)}>Committee</Link>
           <Link href="/registration" onClick={() => setIsMenuOpen(false)}>Registration</Link>
-          <Link href="/schedule" onClick={() => setIsMenuOpen(false)}>Schedule</Link>
+          <Link href="/schedule" onClick={() => setIsMenuOpen(false)}>Important Dates</Link>
           <Link href="/sponsors" onClick={() => setIsMenuOpen(false)}>Sponsors</Link>
           <Link href="/reach" onClick={() => setIsMenuOpen(false)}>Reach Us</Link>
         </div>

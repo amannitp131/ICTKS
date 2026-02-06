@@ -13,13 +13,14 @@ export default function Home() {
       <section id="home" className="hero">
         <div className="container">
           <div className="hero-content">
-            <h1>INTERNATIONAL CONFERENCE ON TRADITIONAL KNOWLEDGE SYSTEM</h1>
+            <h1>INTERNATIONAL CONFERENCE ON TRADITIONAL KNOWLEDGE SYSTEM (ICTKS2026)</h1>
             <p className="organized-by">Organized by</p>
             <p className="institute">Department of Architecture and Planning<br />National Institute of Technology Patna, <br />Ashok Rajpath, Patna, Bihar, India</p>
           </div>
           <div className="hero-logo">
             <img src="/img/image.webp" alt="NIT Patna Logo" />
             <p><b>National Institute of Technology Patna</b></p>
+            <p className="institute-tagline">An Institute of National Importance under Ministry of Education (Shiksha Mantralaya), Government of India</p>
             <div className="partner"></div>
             <SubmitButton />
             <p className="event-date">Event Date: 5th & 6th June, 2026</p>
@@ -39,14 +40,14 @@ export default function Home() {
               <p>Traditional Knowledge Systems (TKS) represent the accumulated knowledge, innovations,
                 and practices of indigenous and local communities around the world. These systems have been
                 developed over centuries of adaptation and are passed down from generation to generation. 
-                However, many of these systems, in the present era of technological advancement and globalization, 
+                However, in the present era of technological advancement and globalization, 
                 many of these knowledge systems are dying due to neglect, in the absence of measures for their conservation 
-                and preservation. The International Conference on Traditional Knowledge System (ICTKS) aims to bring together 
-                researchers, practitioners, and policymakers to discuss the preservation, documentation, and contemporary
+                and preservation. The International Conference on Traditional Knowledge Systems (ICTKS 2026) aims to bring together 
+                researchers, practitioners, and policy makers to discuss the preservation, documentation, and contemporary
                 applications of these valuable systems.</p>
               <p>The conference will focus on various aspects of traditional knowledge including architecture, planning,
                 medicine, agriculture, and environmental management. We invite scholars from diverse disciplines to contribute
-                their research and insights to this important dialogue.</p>
+                 to this important platform.</p>
             </div>
             <div className="intro-media">
               <div className="video-container">

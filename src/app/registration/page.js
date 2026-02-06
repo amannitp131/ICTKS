@@ -10,6 +10,7 @@ export default function Registration() {
       
       <section className="modern-reg-section">
         <div className="modern-reg-container">
+          <h1 className="modern-reg-title">Registration</h1>
           <p className="modern-reg-subtitle">
             Join us at <span>NIT Patna</span>
           </p>
@@ -46,7 +47,7 @@ export default function Registration() {
               </ul>
             </div>
             <div className="modern-payment-right">
-              <img src="/img/google-form-qr-scan.png" alt="QR Code" />
+              <img src="/img/QRCODE.png" alt="Registration QR Code" />
               <div className="modern-register-info">
                 <h4>SCAN & REGISTER</h4>
                 <p><strong>Note:</strong> Upload transaction number and payment PDF</p>
@@ -69,7 +70,7 @@ export default function Registration() {
               <h3 className="conf-card-title">Publication Opportunities</h3>
               <p className="conf-card-content">
                 The conference proceedings as well as selected high quality research papers would be published in SCOPUS/SCIE Journal. 
-                All selected Papers will be published in Conference proceedings (Springer/Elsevier/other Indexed in SCOPUS/SCI/SCIE/ESCI).
+                All Papers will be published in Conference proceedings (Springer/Elsevier/other Indexed in SCOPUS/SCI/SCIE/ESCI).
               </p>
             </div>
             
@@ -78,7 +79,7 @@ export default function Registration() {
               <h3 className="conf-card-title">Awards & Recognition</h3>
               <p className="conf-card-content">
                 The Best paper award and certificate shall be given in each session. Awards shall be provided for Best papers in different 
-                Themes for Oral and Poster presentation. The overall best presentation shall be considered for awarded.
+                themes for Oral and Poster presentation. The overall best presentation shall be considered for award.
               </p>
             </div>
             
