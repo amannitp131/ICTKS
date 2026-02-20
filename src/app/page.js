@@ -74,7 +74,16 @@ export default function Home() {
             </div>
             <div className="intro-media">
               <div className="video-container">
-                <iframe src="https://www.youtube.com/embed/example" frameBorder="0" allowFullScreen></iframe>
+                 <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/xIe4k14wh7U?si=vrqB-z6ddCRNg2Vn"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                 ></iframe>
               </div>
               <div className="intro-buttons">
                 <a href="/brochure.pdf" className="btn" download>Download Brochure</a>

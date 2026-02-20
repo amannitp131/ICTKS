@@ -489,13 +489,30 @@ h1, h2, h3, h4 {
     }
     
     .header-container {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
     }
     
     .header-logo-left,
     .header-logo-right {
-        flex: 0 0 auto;
+        flex: 0 0 72px;
+    }
+
+    .header-logo-left {
+        order: 1;
+    }
+
+    .header-logo-right {
+        order: 2;
+    }
+
+    .header-title-section {
+        order: 3;
+        flex: 0 0 100%;
+        padding: 8px 0 0;
     }
     
     .conference-main-title {
@@ -509,23 +526,38 @@ h1, h2, h3, h4 {
     .full-poster-image {
         border-radius: 10px;
     }
+
+    .poster-image-container {
+        display: block;
+    }
     
     .poster-overlay-content {
+        position: static;
+        left: auto;
+        right: auto;
+        bottom: auto;
         padding: 20px 15px;
+        margin-top: 12px;
         background: linear-gradient(to top, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.9) 70%, transparent 100%);
+        border-radius: 12px;
     }
     
     .cta-buttons-overlay {
         flex-direction: column;
+        align-items: center;
         width: 100%;
         max-width: 300px;
         gap: 15px;
         margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .cta-buttons-overlay .btn,
     .cta-buttons-overlay .btn-brochure {
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .organized-by-overlay {
@@ -987,6 +1019,15 @@ ul li {
   font-size: 0.9rem;
   color: var(--text-dark);
   margin-top: 5px;
+}
+
+.modern-early-bird-note {
+    margin-top: 28px;
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: left;
+    line-height: 1.35;
 }
 
 .modern-fee-cards {

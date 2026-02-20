@@ -14,7 +14,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <img src="/img/ICTKS-LOGO-02.png" alt="ICTKS Logo" />
+          <img src="/img/ICTKS_main.png" alt="ICTKS Logo" />
           <span>ICTKS</span>
         </div>
         <div className="nav-toggle" onClick={toggleMenu}>

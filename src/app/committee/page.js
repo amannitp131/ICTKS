@@ -54,7 +54,7 @@ export default function Committee() {
               </div>
               <div className="member-info">
                 <h3>Prof. (Dr.) Ramakar Jha</h3>
-                <p>Associate Professor ,Department of Civil Engineering,<br /> NIT Patna</p>
+                <p>Associate Professor, Department of Civil Engineering,<br /> NIT Patna</p>
               </div>
             </div>
           </div>
@@ -215,10 +215,10 @@ export default function Committee() {
 
             <div className="member-card">
               <div className="member-img">
-                <img src="https://i1.rgstatic.net/ii/profile.image/327430150606849-1455076839356_Q128/Kailas-Rao.jpg" alt="Prof. B. Kailash Rao" />
+                <img src="https://i1.rgstatic.net/ii/profile.image/327430150606849-1455076839356_Q128/Kailas-Rao.jpg" alt="Prof. Kailasa Rao M." />
               </div>
               <div className="member-info">
-                <h3>Professor  B. Kailash Rao</h3>
+                <h3>Professor Kailasa Rao M.</h3>
                 <p>Professor at School of Planning and Architecture, Vijayawada</p>
               </div>
             </div>
@@ -252,19 +252,15 @@ export default function Committee() {
             </div>
              <div className="advisor-card">
               <h3 className="advisor-name">Prof. Adriana López Barberena</h3>
-              <p className="advisor-designation">Profesor de Tiempo Completo, Área Económico-administrativo, Universidad Tecnológica de León</p>
+                <p className="advisor-designation">Professor in Digital Marketing and Market Research, Leon Technological University</p>
             </div>
             <div className="advisor-card">
               <h3 className="advisor-name">Prof. (Dr.) Tetsu Kubota</h3>
               <p className="advisor-designation">Professor Dept. of Development Technology, IDEC, Hiroshima University, Japan</p>
             </div>
             <div className="advisor-card">
-              <h3 className="advisor-name">Prof. Misse Wester</h3>
-              <p className="advisor-designation">Professor,Division of Risk Management and Societal Safety, Lund University</p>
-            </div>
-            <div className="advisor-card">
               <h3 className="advisor-name">Prof. Loyde Abreu-Harbich</h3>
-              <p className="advisor-designation">Professor (Associate) Mackenzie Presbyterian University,Sao Paulo, Brazil</p>
+              <p className="advisor-designation">Professor (Associate) Mackenzie Presbyterian University, Sao Paulo, Brazil</p>
             </div>
             <div className="advisor-card">
               <h3 className="advisor-name">Prof. Normen Langner</h3>
@@ -274,6 +270,11 @@ export default function Committee() {
             <div className="advisor-card">
               <h3 className="advisor-name">Dr. Ramesh Srikonda</h3>
               <p className="advisor-designation">Director, School of Planning and Architecture, Vijayawada</p>
+            </div>
+
+            <div className="advisor-card">
+              <h3 className="advisor-name">Prof. D. Srinivas</h3>
+              <p className="advisor-designation">Professor and Head, Department of Architecture, School of Planning and Architecture, Vijayawada</p>
             </div>
           
             <div className="advisor-card">
@@ -289,8 +290,8 @@ export default function Committee() {
               <p className="advisor-designation">Professor, Department of Architecture and Regional Planning, IIT Kharagpur</p>
             </div>
             <div className="advisor-card">
-              <h3 className="advisor-name">Prof.(Dr.) Sanjukta Bhaduri</h3>
-              <p className="advisor-designation">Professor of Urban Planning (Retd.), Former HOD,Urban Planning,Regional Planning, School of Planning and Architecture, Delhi</p>
+              <h3 className="advisor-name">Prof. (Dr.) Sanjukta Bhaduri</h3>
+              <p className="advisor-designation">Professor of Urban Planning (Retd.), Former HOD, Urban Planning, Regional Planning, School of Planning and Architecture, Delhi</p>
             </div>
             <div className="advisor-card">
               <h3 className="advisor-name">Prof. (Dr.) K.K. Dhote</h3>
@@ -302,14 +303,14 @@ export default function Committee() {
             </div>
             <div className="advisor-card">
               <h3 className="advisor-name">Prof. (Dr.) Amit Dhiman</h3>
-              <p className="advisor-designation">Professor ,Department of Chemical Engineering, IIT Roorkee</p>
+              <p className="advisor-designation">Professor, Department of Chemical Engineering, IIT Roorkee</p>
             </div>
 
             {/* Technical Advisory */}
 
             <div className="advisor-card">
               <h3 className="advisor-name">Prof. (Dr.) L.B. Roy</h3>
-              <p className="advisor-designation">Professor,Department of Civil Engineering, NIT Patna</p>
+              <p className="advisor-designation">Professor, Department of Civil Engineering, NIT Patna</p>
             </div>
             <div className="advisor-card">
               <h3 className="advisor-name">Prof. (Dr.) S.S. Mishra</h3>
@@ -317,7 +318,7 @@ export default function Committee() {
             </div>
             <div className="advisor-card">
               <h3 className="advisor-name">Ms. Sunita Narayan</h3>
-              <p className="advisor-designation">Director General ,Centre for Science and Environment, New Delhi</p>
+              <p className="advisor-designation">Director General, Centre for Science and Environment, New Delhi</p>
             </div>
             <div className="advisor-card">
               <h3 className="advisor-name">Prof. (Dr.) K.T. Ravindran</h3>
@@ -332,7 +333,7 @@ export default function Committee() {
               <p className="advisor-designation">Professor, Department of Architecture and Planning, NIT Calicut</p>
             </div>
             <div className="advisor-card">
-              <h3 className="advisor-name">Prof. (Dr.) R. Sridhar</h3>
+              <h3 className="advisor-name">Prof. (Dr.) R. Sridharan</h3>
               <p className="advisor-designation">Professor, Mechanical Engineering Department, NIT Calicut</p>
             </div>
             <div className="advisor-card">
@@ -346,11 +347,11 @@ export default function Committee() {
             {/* Indian Advisory */}
             <div className="advisor-card">
               <h3 className="advisor-name">Prof. (Dr.) Rama Umesh Pandey</h3>
-              <p className="advisor-designation">DEAN ACADEMICS, School of Planning and Architecture, Bhopal</p>
+              <p className="advisor-designation">Dean (Academic), School of Planning and Architecture, Bhopal</p>
             </div>
             <div className="advisor-card">
-              <h3 className="advisor-name">Prof. (Dr.) Anil Dewan</h3>
-              <p className="advisor-designation">Retd. Dean Research, School of Planning and Architecture, New Delhi</p>
+              <h3 className="advisor-name">Prof. (Dr.) Anil Dewan (Retd.)</h3>
+              <p className="advisor-designation">Dean Research, School of Planning and Architecture Delhi</p>
             </div>
             <div className="advisor-card">
               <h3 className="advisor-name">Dr. Sheuli Mitra</h3>

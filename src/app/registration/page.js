@@ -34,7 +34,7 @@ export default function Registration() {
               <p>Rs. 3500 / USD 100 + GST (18%)</p>
             </div>
           </div>
-          <p className="modern-reg-note">Early Bird Registrations will get 10% discount.</p>
+          <p className="modern-early-bird-note">Early Bird Registrations will get 10% discount.</p>
 
           <div className="modern-payment-section">
             <div className="modern-payment-info">
