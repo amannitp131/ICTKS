@@ -9,21 +9,44 @@ export default function Home() {
     <>
       <Navbar />
       
-      {/* Hero Section */}
-      <section id="home" className="hero">
-        <div className="container">
-          <div className="hero-content">
-            <h1>INTERNATIONAL CONFERENCE ON TRADITIONAL KNOWLEDGE SYSTEM (ICTKS2026)</h1>
-            <p className="organized-by">Organized by</p>
-            <p className="institute">Department of Architecture and Planning<br />National Institute of Technology Patna, <br />Ashok Rajpath, Patna, Bihar, India</p>
+      {/* Top Header with Logos and Title */}
+      <section className="conference-header">
+        <div className="header-container">
+          <div className="header-logo-left">
+            <img src="/img/ICTKS_main.png" alt="ICTKS Logo" />
           </div>
-          <div className="hero-logo">
+          <div className="header-title-section">
+            <h1 className="conference-main-title">
+              International Conference on<br />
+              Traditional Knowledge Systems <span className="conf-year">(ICTKS2026)</span>
+            </h1>
+            <p className="conference-date-text">5<sup>th</sup> - 6<sup>th</sup> June, 2026</p>
+          </div>
+          <div className="header-logo-right">
             <img src="/img/image.webp" alt="NIT Patna Logo" />
-            <p><b>National Institute of Technology Patna</b></p>
-            <p className="institute-tagline">An Institute of National Importance under Ministry of Education (Shiksha Mantralaya), Government of India</p>
-            <div className="partner"></div>
-            <SubmitButton />
-            <p className="event-date">Event Date: 5th & 6th June, 2026</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Full Poster Image with Overlay Content */}
+      <section className="poster-image-section">
+        <div className="poster-image-container">
+          <img src="/front_page.png" alt="ICTKS 2026 Conference Poster" className="full-poster-image" />
+          
+          {/* Overlay Content */}
+          <div className="poster-overlay-content">
+            {/* CTA Buttons */}
+            <div className="cta-buttons-overlay">
+              <SubmitButton />
+              <a href="/brochure.pdf" className="btn btn-brochure" download>Download Brochure</a>
+            </div>
+            
+            {/* Organizer Information Overlay */}
+            <div className="organizer-overlay">
+              <p className="organized-by-overlay">Organized by</p>
+              <p className="institute-overlay">Department of Architecture and Planning<br />National Institute of Technology Patna, Ashok Rajpath, Patna, Bihar, India</p>
+              <p className="institute-tagline-overlay">An Institute of National Importance under Ministry of Education (Shiksha Mantralaya), Government of India</p>
+            </div>
           </div>
         </div>
       </section>
@@ -54,8 +77,15 @@ export default function Home() {
                 <iframe src="https://www.youtube.com/embed/example" frameBorder="0" allowFullScreen></iframe>
               </div>
               <div className="intro-buttons">
-                <Link href="#" className="btn">Download Brochure</Link>
-                <Link href="#" className="btn">Template Download</Link>
+                <a href="/brochure.pdf" className="btn" download>Download Brochure</a>
+                <a
+                  href="https://docs.google.com/document/d/1LoWSV6uDYA3TxyNGTAFu_gzk65qLBEdL/edit?usp=sharing&amp;ouid=108782734878398070057&amp;rtpof=true&amp;sd=true"
+                  className="btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Template Download
+                </a>
               </div>
             </div>
           </div>

@@ -23,6 +23,7 @@ export default function Navbar() {
         <div className={`nav-links ${isMenuOpen ? 'active' : ''}`} id="nav-links">
           <Link href="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
           <Link href="/committee" onClick={() => setIsMenuOpen(false)}>Committee</Link>
+          <Link href="/abstract-paper-submission" onClick={() => setIsMenuOpen(false)}>Abstract and Paper Submission</Link>
           <Link href="/registration" onClick={() => setIsMenuOpen(false)}>Registration</Link>
           <Link href="/schedule" onClick={() => setIsMenuOpen(false)}>Important Dates</Link>
           <Link href="/sponsors" onClick={() => setIsMenuOpen(false)}>Sponsors</Link>

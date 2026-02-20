@@ -38,9 +38,13 @@ export default function Reach() {
               <p>
                 <strong>Phone:</strong><br />
                 Dr. Anjali Sharma – 9661116833<br />
+                Kranti Kumar Maurya – 8010234592<br />
+                Dr. Supriya Kumari – 7488501191<br />
+                Ar. Milind A. Kamble – 7558621779<br />
                 Dr. Anushri Barman – 7903143125<br />
-                Ar. Abhishek Kumar Bittu - 8587820928<br />
-                Ar. Prdeep Kumar Kori - 8960119527
+                Ar. Abhishek Bittu – 8587820928<br />
+                Ar. Preksha Gupta – 7999814602<br />
+                Ar. Pradeep K. Kori – 8960119527
               </p>
             </div>
             <div className="map-box">

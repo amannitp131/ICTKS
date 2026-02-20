@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -30,7 +31,9 @@ export default function Schedule() {
             
             <div className="date-card date-card-highlight">
               <h3 className="card-title">Early Bird Registration</h3>
-              <p className="card-date">April 30th, 2026</p>
+              <p className="card-date">April 30, 2026</p>
+              <p className="offer-note">Get 10% discount on Early Bird Registration.</p>
+              <Link href="/registration" className="offer-link">Register Now</Link>
             </div>
             
             <div className="date-card">
@@ -46,7 +49,7 @@ export default function Schedule() {
         </div>
       </section>
 
-      {/* Instructions to Authors */}
+      {/* Instructions to Authors
       <section className="instructions-section">
         <div className="instructions-container">
           <h2 className="instructions-title">
@@ -63,7 +66,7 @@ export default function Schedule() {
             <li>Description ...</li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </>

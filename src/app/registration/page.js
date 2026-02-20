@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import SubmitButton from '@/components/SubmitButton';
 
 export default function Registration() {
   return (
@@ -18,23 +17,24 @@ export default function Registration() {
 
           <div className="modern-reg-header">
             <h2><i className="fas fa-location-arrow"></i> Registration Fee</h2>
-            <p className="modern-reg-note">(Free fooding [Breakfast, lunch and dinner] + Inclusive of GST (18%))</p>
+            <p className="modern-reg-note">(Include free fooding [Breakfast, lunch and dinner])</p>
           </div>
 
           <div className="modern-fee-cards">
             <div className="modern-fee-card">
               <h3><i className="fas fa-user-graduate"></i> Students</h3>
-              <p>Rs. 4000 / USD 100</p>
+              <p>Rs. 4000 / USD 100 + GST (18%)</p>
             </div>
             <div className="modern-fee-card">
               <h3><i className="fas fa-chalkboard-teacher"></i> Faculties/Officers</h3>
-              <p>Rs. 7000 / USD 200</p>
+              <p>Rs. 7000 / USD 200 + GST (18%)</p>
             </div>
             <div className="modern-fee-card">
               <h3><i className="fas fa-user-friends"></i> Accompanying Person</h3>
-              <p>Rs. 3500 / USD 100</p>
+              <p>Rs. 3500 / USD 100 + GST (18%)</p>
             </div>
           </div>
+          <p className="modern-reg-note">Early Bird Registrations will get 10% discount.</p>
 
           <div className="modern-payment-section">
             <div className="modern-payment-info">
@@ -54,7 +54,14 @@ export default function Registration() {
               </div>
               <span><b>or</b></span>
             </div>
-            <SubmitButton />
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScDNdLRnB6OmX913KqqjYiw9eQI5Thk9h0MaIFOruGUHTtL5Q/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn submit-paper"
+            >
+              Register
+            </a>
           </div>
         </div>
 
