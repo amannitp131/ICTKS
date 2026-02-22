@@ -54,7 +54,7 @@ export default function Committee() {
               </div>
               <div className="member-info">
                 <h3>Prof. (Dr.) Ramakar Jha</h3>
-                <p>Associate Professor, Department of Civil Engineering,<br /> NIT Patna</p>
+                <p> Professor, Department of Civil Engineering,<br /> NIT Patna</p>
               </div>
             </div>
           </div>
@@ -179,7 +179,7 @@ export default function Committee() {
               </div>
               <div className="member-info">
                 <h3>Prof. (Dr.) Fulena Rajak</h3>
-                <p>Professor, Department of Architecture and Planning,<br /> NIT Patna</p>
+                <p>Professor (Retd.), Department of Architecture and Planning,<br /> NIT Patna</p>
               </div>
             </div>
 

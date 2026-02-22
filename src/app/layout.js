@@ -19,12 +19,12 @@ export const metadata = {
   icons: {
     icon: [
       {
-        url: "/img/ICTKS-LOGO-02.png",
+        url: "/img/ICTKS_main.png",
         sizes: "any",
       },
     ],
-    shortcut: "/img/ICTKS-LOGO-02.png",
-    apple: "/img/ICTKS-LOGO-02.png",
+    shortcut: "/img/ICTKS_main.png",
+    apple: "/img/ICTKS_main.png",
   },
 };
 
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/img/ICTKS-LOGO-02.png" type="image/png" />
+        <link rel="icon" href="/img/ICTKS_main.png" type="image/png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
       </head>
       <body className={`${poppins.variable} ${imFellEnglish.variable}`}>

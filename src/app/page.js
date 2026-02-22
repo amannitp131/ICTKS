@@ -65,7 +65,7 @@ export default function Home() {
                 developed over centuries of adaptation and are passed down from generation to generation. 
                 However, in the present era of technological advancement and globalization, 
                 many of these knowledge systems are dying due to neglect, in the absence of measures for their conservation 
-                and preservation. The International Conference on Traditional Knowledge Systems (ICTKS 2026) aims to bring together 
+                and preservation. The International Conference on Traditional Knowledge Systems (ICTKS2026) aims to bring together 
                 researchers, practitioners, and policy makers to discuss the preservation, documentation, and contemporary
                 applications of these valuable systems.</p>
               <p>The conference will focus on various aspects of traditional knowledge including architecture, planning,
